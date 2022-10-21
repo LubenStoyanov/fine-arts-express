@@ -1,0 +1,613 @@
+[
+  {
+    "fields": {
+      "title": "David with the Head of Goliath",
+      "artist": "Caravaggio",
+      "alive": false,
+      "description": "In his left hand, he grips the hair of Goliath decapitated head, which is suspended in the air.\nIt appears his death occurred while screaming as his mouth was left partially open, and his gaze appears sightless with blood dripping from is detached head.\nDavid gazes at the head with a downward expression. This expression has been the source of much debate.\nSome believe he is showing remorse while others believe he is showing triumph.\nIn his right hand, David holds a sword which he used against Goliath. Upon closer inspection the sword has the following letters inscribed on it “H AS OS”.\nIt is believed to be an abbreviation of a latin phrase which means \"humility shall kill pride\".\nThe painting is on display at the Galleria Borghese in Rome, where it was originally sent to from Caravaggio when he was requesting a pardon. It has remained there ever since.",
+      "century1": "16th",
+      "link": "https://en.wikipedia.org/wiki/Caravaggio",
+      "artworks": [
+        {
+          "metadata": { "tags": [] },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "3okd8zp7ryvu"
+              }
+            },
+            "id": "s5Glt15ZnpRGCw9hK5fAL",
+            "type": "Asset",
+            "createdAt": "2022-10-12T11:31:52.424Z",
+            "updatedAt": "2022-10-12T11:31:52.424Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "David with the Head of Goliath ",
+            "description": "",
+            "file": {
+              "url": "//images.ctfassets.net/3okd8zp7ryvu/s5Glt15ZnpRGCw9hK5fAL/dddfeb43993894c0af9da200dad43884/David_with_the_Head_of_Goliath_Caravaggio.jpg",
+              "details": {
+                "size": 26815,
+                "image": { "width": 400, "height": 502 }
+              },
+              "fileName": "David with the Head of Goliath Caravaggio.jpg",
+              "contentType": "image/jpeg"
+            }
+          }
+        }
+      ]
+    },
+    "sys": { "id": "46m6ghmEEiAjKn5Cp2h9oU", "type": "Entry" }
+  },
+  {
+    "fields": {
+      "title": "Golconda",
+      "artist": "René Magritte",
+      "alive": false,
+      "description": "A Belgian Surrealist, René Magritte liked painting artworks that challenged people’s sense of reality. Often depicting ordinary objects and/or people in unusual, improbable or fantastic settings, Magritte’s paintings take you on a dreamy trip to your own subconscious– or perhaps the collective subconscious of humankind, if such a thing exists. Golconda shows a residential scene of red-roofed buildings, over which numerous middle-aged men dressed in overcoats and bowler hats (as Magritte often depicted himself in paintings) are seen falling from the sky – or suspended in air in a kind of grid pattern. Are these men individuals or multiples of the same man? Curiously, Magritte’s mother committed suicide when he was 14, and it’s been theorized that his puzzling artworks shift from a state of her being alive – or dead.",
+      "century1": "20th",
+      "link": "https://en.wikipedia.org/wiki/Ren%C3%A9_Magritte",
+      "artworks": [
+        {
+          "metadata": { "tags": [] },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "3okd8zp7ryvu"
+              }
+            },
+            "id": "1t2p9w83rVCV7swNZdciHR",
+            "type": "Asset",
+            "createdAt": "2022-10-12T11:20:05.521Z",
+            "updatedAt": "2022-10-12T11:20:05.521Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "Golconda",
+            "description": "",
+            "file": {
+              "url": "//images.ctfassets.net/3okd8zp7ryvu/1t2p9w83rVCV7swNZdciHR/50f0785d1758dc26b3296e7403a4d304/MTc0NjQ3MzI1OTQ4MTkyMTIy.webp",
+              "details": {
+                "size": 46214,
+                "image": { "width": 700, "height": 525 }
+              },
+              "fileName": "MTc0NjQ3MzI1OTQ4MTkyMTIy.webp",
+              "contentType": "image/webp"
+            }
+          }
+        }
+      ]
+    },
+    "sys": { "id": "51qwjqav7V8XeVPaHEeUpq", "type": "Entry" }
+  },
+  {
+    "fields": {
+      "title": "The Tower Of Babel",
+      "artist": "Pieter Bruegel the Elder",
+      "alive": false,
+      "description": "One of the three paintings by Pieter Bruegel the Elder depict the Tower of Babel. The first, a miniature painted on ivory that was painted while Bruegel was in Rome and is now lost, was painted while Bruegel was in Rome. The two surviving paintings, often referred to as \"Great\" and \"Little,\" are housed in Vienna's Kunsthistorisches Museum and Rotterdam's Museum Boijmans Van Beuningen, respectively. Both paintings are oil on wood panels. The paintings represent the construction of the Tower of Babel, which, according to the Bible's Book of Genesis, was built as a symbol of humanity's triumph by a unified, monolingual humanity.\n",
+      "century1": "16th",
+      "link": "https://en.wikipedia.org/wiki/Pieter_Bruegel_the_Elder",
+      "artworks": [
+        {
+          "metadata": { "tags": [] },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "3okd8zp7ryvu"
+              }
+            },
+            "id": "1hLrUPYtSTJHrmCpML5RY4",
+            "type": "Asset",
+            "createdAt": "2022-10-12T11:13:59.670Z",
+            "updatedAt": "2022-10-12T11:13:59.670Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "The Tower Of Babel ",
+            "description": "",
+            "file": {
+              "url": "//images.ctfassets.net/3okd8zp7ryvu/1hLrUPYtSTJHrmCpML5RY4/6cb1f7407d7fa20e5c1e2ac3a7dd8485/The_Tower_Of_Babel_by_Pieter_Bruegel_the_Elder_large.webp",
+              "details": {
+                "size": 82962,
+                "image": { "width": 480, "height": 384 }
+              },
+              "fileName": "The_Tower_Of_Babel_by_Pieter_Bruegel_the_Elder_large.webp",
+              "contentType": "image/webp"
+            }
+          }
+        }
+      ]
+    },
+    "sys": { "id": "6zgtBS6rfi6TodNWMQSi0U", "type": "Entry" }
+  },
+  {
+    "fields": {
+      "title": "Branches with Almond Blossom",
+      "artist": "Vincent van Gogh",
+      "alive": false,
+      "description": "Almond Blossoms is a collection of paintings of blossoming almond trees painted by Vincent van Gogh in Arles and Saint-Rémy, southern France, between 1888 and 1890. Van Gogh was particularly fond of flowering trees. They symbolized rebirth and hope. He liked the way they looked and enjoyed drawing blossoming trees.",
+      "link": "https://en.wikipedia.org/wiki/Vincent_van_Gogh",
+      "artworks": [
+        {
+          "metadata": { "tags": [] },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "3okd8zp7ryvu"
+              }
+            },
+            "id": "1UZYVuNZfMGMWbst3snNZe",
+            "type": "Asset",
+            "createdAt": "2022-10-12T11:09:14.889Z",
+            "updatedAt": "2022-10-12T11:09:14.889Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "Branches with Almond Blossom ",
+            "description": "",
+            "file": {
+              "url": "//images.ctfassets.net/3okd8zp7ryvu/1UZYVuNZfMGMWbst3snNZe/051e527a11280859f638af42d51bce5d/Branches_with_Almond_Blossom_by_Vincent_van_Gogh_large.webp",
+              "details": {
+                "size": 73564,
+                "image": { "width": 480, "height": 351 }
+              },
+              "fileName": "Branches_with_Almond_Blossom_by_Vincent_van_Gogh_large.webp",
+              "contentType": "image/webp"
+            }
+          }
+        }
+      ]
+    },
+    "sys": { "id": "6Sz1caydnGFASm9Zh5tW6q", "type": "Entry" }
+  },
+  {
+    "fields": {
+      "title": "Composition viii",
+      "artist": "Wassily Kandinsky",
+      "alive": false,
+      "description": "Wassily Kandinsky's Composition VIII is an oil-on-canvas painting in the Abstract style that he painted in 1923. The painting features a variety of geometric patterns, colors, and straight and curved lines against a cream backdrop that blends into areas of pale blue at certain points. Circles, triangles, and linear pieces form a surface of interlocking geometric forms in this painting. The prominence of circles in this painting foreshadows their central significance in many following works.",
+      "century1": "20th",
+      "link": "https://en.wikipedia.org/wiki/Wassily_Kandinsky",
+      "artworks": [
+        {
+          "metadata": { "tags": [] },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "3okd8zp7ryvu"
+              }
+            },
+            "id": "6R3kwMCcyRPZrZtpuPS8S7",
+            "type": "Asset",
+            "createdAt": "2022-10-12T11:06:12.651Z",
+            "updatedAt": "2022-10-12T11:06:12.651Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "Composition viii ",
+            "description": "",
+            "file": {
+              "url": "//images.ctfassets.net/3okd8zp7ryvu/6R3kwMCcyRPZrZtpuPS8S7/0b902f3a91b7b82e0dc99eeafd8adec2/Composition_viii_by_Wassily_Kandinsky_large.webp",
+              "details": {
+                "size": 55212,
+                "image": { "width": 480, "height": 334 }
+              },
+              "fileName": "Composition_viii_by_Wassily_Kandinsky_large.webp",
+              "contentType": "image/webp"
+            }
+          }
+        }
+      ]
+    },
+    "sys": { "id": "aPBYri71WEFmmAWtHfZFb", "type": "Entry" }
+  },
+  {
+    "fields": {
+      "title": "Irises",
+      "artist": "Vincent van Gogh",
+      "alive": false,
+      "description": "Irises is one of several paintings of irises by the Dutch artist Vincent van Gogh, and one of a sequence of works he completed in the last year of his life at the Saint Paul-de-Mausole asylum in Saint-Rémy-de-Provence, France.",
+      "century1": "19th",
+      "link": "https://en.wikipedia.org/wiki/Vincent_van_Gogh",
+      "artworks": [
+        {
+          "metadata": { "tags": [] },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "3okd8zp7ryvu"
+              }
+            },
+            "id": "1f0n2Ue5W4RSkRGWyvPuSD",
+            "type": "Asset",
+            "createdAt": "2022-10-12T10:59:49.208Z",
+            "updatedAt": "2022-10-12T10:59:49.208Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "Irises by Vincent ",
+            "description": "",
+            "file": {
+              "url": "//images.ctfassets.net/3okd8zp7ryvu/1f0n2Ue5W4RSkRGWyvPuSD/a8f35008563b6b499438ff54ea7ff725/Irises_by_Vincent_van_Gogh_large.webp",
+              "details": {
+                "size": 98334,
+                "image": { "width": 480, "height": 377 }
+              },
+              "fileName": "Irises_by_Vincent_van_Gogh_large.webp",
+              "contentType": "image/webp"
+            }
+          }
+        }
+      ]
+    },
+    "sys": { "id": "5R1kPTBSwmwtauYGhatcVd", "type": "Entry" }
+  },
+  {
+    "fields": {
+      "title": "Les Demoiselles d’Avignon",
+      "artist": "Pablo Picasso",
+      "alive": false,
+      "description": "Les Demoiselles d'Avignon (The Young Ladies of Avignon, originally titled The Brothel of Avignon) is a large oil painting created in 1907 by the Spanish artist Pablo Picasso. The work, part of the permanent collection of the Museum of Modern Art, portrays five nude female prostitutes in a brothel on Carrer d'Avinyó, a street in Barcelona, Spain. Each figure is depicted in a disconcerting confrontational manner and none is conventionally feminine. The women appear slightly menacing and are rendered with angular and disjointed body shapes. The figure on the left exhibits facial features and dress of Egyptian or southern Asian style.",
+      "century1": "20th",
+      "link": "https://en.wikipedia.org/wiki/Pablo_Picasso",
+      "artworks": [
+        {
+          "metadata": { "tags": [] },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "3okd8zp7ryvu"
+              }
+            },
+            "id": "3CYalahXTtKlOMWLIoJDw8",
+            "type": "Asset",
+            "createdAt": "2022-10-12T10:56:58.854Z",
+            "updatedAt": "2022-10-12T10:56:58.854Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "Les Demoiselles d Avignon",
+            "description": "",
+            "file": {
+              "url": "//images.ctfassets.net/3okd8zp7ryvu/3CYalahXTtKlOMWLIoJDw8/35bfd76c4c09d0b5da9f8a39e77650db/Les_Demoiselles_d_Avignon_by_Pablo_Picasso_large.webp",
+              "details": {
+                "size": 47566,
+                "image": { "width": 480, "height": 360 }
+              },
+              "fileName": "Les_Demoiselles_d_Avignon_by_Pablo_Picasso_large.webp",
+              "contentType": "image/webp"
+            }
+          }
+        }
+      ]
+    },
+    "sys": { "id": "6ZPJIaP7zNhJiQoiuVo9aa", "type": "Entry" }
+  },
+  {
+    "fields": {
+      "title": "Self-Portrait with Physalis",
+      "artist": "Egon Schiele",
+      "alive": false,
+      "description": "Egon Schieles self-portraits evidence a searching desire for understanding, self-analysis, and quite possibly a fair degree of narcissism. Glimpses into the sometimes tortured, occasionally arrogant or maverick images of self are compelling and supremely moving. Schiele brings the viewer close to himself, to his acquaintances, to his loves and the lost, focusing almost entirely on those people, their minds and emotions, notably without any distraction from background or situation. They are writhing emotions, raging people, quintessentially human, in every stroke of pink, amber, ochre and black. His people are silently screaming and singing from the frames of the canvases.",
+      "century1": "19th",
+      "link": "https://en.wikipedia.org/wiki/Egon_Schiele",
+      "artworks": [
+        {
+          "metadata": { "tags": [] },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "3okd8zp7ryvu"
+              }
+            },
+            "id": "1dbiOUfmr8IEFkp3skcSsS",
+            "type": "Asset",
+            "createdAt": "2022-10-12T10:52:15.632Z",
+            "updatedAt": "2022-10-12T10:52:15.632Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "Self-Portrait with Physalis ",
+            "description": "",
+            "file": {
+              "url": "//images.ctfassets.net/3okd8zp7ryvu/1dbiOUfmr8IEFkp3skcSsS/fa5c55ec1b20e1baf0e6cf5211403fc0/593px-Egon_Schiele_-_Self-Portrait_with_Physalis_-_Google_Art_Project.jpg",
+              "details": {
+                "size": 92042,
+                "image": { "width": 593, "height": 480 }
+              },
+              "fileName": "593px-Egon_Schiele_-_Self-Portrait_with_Physalis_-_Google_Art_Project.jpg",
+              "contentType": "image/jpeg"
+            }
+          }
+        }
+      ]
+    },
+    "sys": { "id": "5MV6zOVKp22nyHwUxUoGCq", "type": "Entry" }
+  },
+  {
+    "fields": {
+      "title": "The Last Supper",
+      "artist": "Leonardo da Vinci",
+      "alive": false,
+      "description": "The Last Supper is a late fifteenth-century Christian painting done by the world renowned Italian artist Leonardo da Vinci. It's housed at the Convent of Santa Maria Delle Grazie in Milan, Italy.",
+      "century1": "15th",
+      "link": "https://de.wikipedia.org/wiki/Leonardo_da_Vinci",
+      "artworks": [
+        {
+          "metadata": { "tags": [] },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "3okd8zp7ryvu"
+              }
+            },
+            "id": "6qh61IMuIXsGKN7Psh5fPF",
+            "type": "Asset",
+            "createdAt": "2022-10-12T10:44:24.630Z",
+            "updatedAt": "2022-10-12T10:44:24.630Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "The Last Supper by Leonardo da Vinci ",
+            "description": "",
+            "file": {
+              "url": "//images.ctfassets.net/3okd8zp7ryvu/6qh61IMuIXsGKN7Psh5fPF/85ba4a4deac49716f67f976fedf7441c/The_Last_Supper_by_Leonardo_da_Vinci_2dbb8dff-7d8a-4c0b-ab5b-814776e0bb18_large.webp",
+              "details": {
+                "size": 48608,
+                "image": { "width": 480, "height": 240 }
+              },
+              "fileName": "The_Last_Supper_by_Leonardo_da_Vinci_2dbb8dff-7d8a-4c0b-ab5b-814776e0bb18_large.webp",
+              "contentType": "image/webp"
+            }
+          }
+        }
+      ]
+    },
+    "sys": { "id": "3gUVMDO7PC6JilNMe4tJ83", "type": "Entry" }
+  },
+  {
+    "fields": {
+      "title": "Dempsey and Firpo",
+      "artist": "George Bellow",
+      "alive": false,
+      "description": "One of George Bellows' most elaborate paintings, Dempsey and Firpo, depicts a key moment in the title bout between American heavyweight champion Jack Dempsey and his Argentine rival Luis Angel Firpo on September 14, 1923. Firpo dropped to the ground nine times and Dempsey twice during the frenzy, which lasted less than four minutes. Despite the fact that Dempsey won in the end, the artist chose to depict the dramatic moment when Firpo knocked his opponent out of the ring with a massive jaw hit.",
+      "century1": "20th",
+      "link": "https://de.wikipedia.org/wiki/George_Wesley_Bellows",
+      "artworks": [
+        {
+          "metadata": { "tags": [] },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "3okd8zp7ryvu"
+              }
+            },
+            "id": "2gJYJudhgMYNiC9XcHJ7ui",
+            "type": "Asset",
+            "createdAt": "2022-10-12T10:41:34.397Z",
+            "updatedAt": "2022-10-12T10:41:34.397Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "Dempsey and Firpo by George Wesley Bellows ",
+            "description": "",
+            "file": {
+              "url": "//images.ctfassets.net/3okd8zp7ryvu/2gJYJudhgMYNiC9XcHJ7ui/b4ab27b279b8c812a01d161fb2f27981/Dempsey_and_Firpo_by_George_Wesley_Bellows_large.webp",
+              "details": {
+                "size": 35102,
+                "image": { "width": 480, "height": 388 }
+              },
+              "fileName": "Dempsey_and_Firpo_by_George_Wesley_Bellows_large.webp",
+              "contentType": "image/webp"
+            }
+          }
+        }
+      ]
+    },
+    "sys": { "id": "4CFJDDXx8OV5nqMcJ7wBmq", "type": "Entry" }
+  },
+  {
+    "fields": {
+      "title": "Fishing boats on the Beach at Les Saintes-Maries-de-la-Mer",
+      "artist": "Vincent van Gogh",
+      "alive": false,
+      "description": "The boats are constructed up of color-coordinated regions with distinct outlines. The boats also don't cast any shadows on the shore. Van Gogh was familiar with these style aspects from his collection of Japanese prints. Van Gogh would have loved to paint this on the shore, but he was unable to do so since the fishermen set sail very early every morning. He did, however, draw the boats there and later painted this artwork at home.",
+      "century1": "19th",
+      "link": "https://de.wikipedia.org/wiki/Vincent_van_Gogh",
+      "artworks": [
+        {
+          "metadata": { "tags": [] },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "3okd8zp7ryvu"
+              }
+            },
+            "id": "4qkfafRf5eztuXZLOLVpLM",
+            "type": "Asset",
+            "createdAt": "2022-10-12T10:33:02.115Z",
+            "updatedAt": "2022-10-12T10:33:02.115Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "Fishing boats on the Beach at Les Saintes-Maries-de-la-Mer by Vincent van Gogh large",
+            "description": "",
+            "file": {
+              "url": "//images.ctfassets.net/3okd8zp7ryvu/4qkfafRf5eztuXZLOLVpLM/f882b29712d4aedacd14e4103d1bd24d/Fishing_boats_on_the_Beach_at_Les_Saintes-Maries-de-la-Mer_by_Vincent_van_Gogh_large.webp",
+              "details": {
+                "size": 61356,
+                "image": { "width": 480, "height": 385 }
+              },
+              "fileName": "Fishing_boats_on_the_Beach_at_Les_Saintes-Maries-de-la-Mer_by_Vincent_van_Gogh_large.webp",
+              "contentType": "image/webp"
+            }
+          }
+        }
+      ]
+    },
+    "sys": { "id": "5aB8BuH5r2DOXN6TkhMMxm", "type": "Entry" }
+  },
+  {
+    "fields": {
+      "title": "The Gleaners",
+      "artist": "Jean-François Millet's",
+      "alive": false,
+      "description": "Jean-François Millet's oil work The Gleaners (Des glaneuses) was created in 1857. It shows three peasant ladies after the harvest gleaning a field of stray wheat stalks. The artwork is noteworthy for depicting what were once the lowest sections of rural society in a sympathetic light; it was not well welcomed by the French upper classes. In 1857, Millet debuted The Gleaners at the Salon. It drew quick ire from the middle and upper classes, who regarded the subject with distrust.",
+      "century1": "19th",
+      "link": "https://de.wikipedia.org/wiki/Jean-Fran%C3%A7ois_Millet",
+      "artworks": [
+        {
+          "metadata": { "tags": [] },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "3okd8zp7ryvu"
+              }
+            },
+            "id": "lpX9PyfIrWA0zIlLt8AFb",
+            "type": "Asset",
+            "createdAt": "2022-10-12T10:27:08.224Z",
+            "updatedAt": "2022-10-12T10:27:08.224Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "The Gleaners by Jean-Francois Millet large",
+            "description": "",
+            "file": {
+              "url": "//images.ctfassets.net/3okd8zp7ryvu/lpX9PyfIrWA0zIlLt8AFb/99cfbd867a3ac9e4518fb4e2abe16e3e/The_Gleaners_by_Jean-Francois_Millet_large.jpg",
+              "details": {
+                "size": 46523,
+                "image": { "width": 480, "height": 359 }
+              },
+              "fileName": "The_Gleaners_by_Jean-Francois_Millet_large.jpg",
+              "contentType": "image/jpeg"
+            }
+          }
+        }
+      ]
+    },
+    "sys": { "id": "5FJW5piouIQaxDdzgE05w9", "type": "Entry" }
+  }
+]

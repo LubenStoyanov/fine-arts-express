@@ -1,0 +1,782 @@
+[
+  {
+    "fields": {
+      "title": "The Brothers Karamazov",
+      "author": "Fyodor Dostoevsky",
+      "release": "1879-80",
+      "link": "https://en.wikipedia.org/wiki/The_Brothers_Karamazov",
+      "cover": {
+        "metadata": { "tags": [] },
+        "sys": {
+          "space": {
+            "sys": { "type": "Link", "linkType": "Space", "id": "3okd8zp7ryvu" }
+          },
+          "id": "CTOVxCjVnEdKES4UD7J7e",
+          "type": "Asset",
+          "createdAt": "2022-10-15T14:06:52.499Z",
+          "updatedAt": "2022-10-15T14:06:52.499Z",
+          "environment": {
+            "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "The Brothers Karamazov",
+          "description": "",
+          "file": {
+            "url": "//images.ctfassets.net/3okd8zp7ryvu/CTOVxCjVnEdKES4UD7J7e/75c6b374c9b4ab33bff4ed0e92cd8f64/karamazov.jpg",
+            "details": {
+              "size": 8787,
+              "image": { "width": 181, "height": 279 }
+            },
+            "fileName": "karamazov.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    "sys": { "id": "6m3MTO6Ru2PVGs8ZTqPRCr", "type": "Entry" }
+  },
+  {
+    "fields": {
+      "title": "The Idiot",
+      "author": "Fyodor Dostoevsky",
+      "release": "1868–69",
+      "link": "https://en.wikipedia.org/wiki/The_Idiot",
+      "cover": {
+        "metadata": { "tags": [] },
+        "sys": {
+          "space": {
+            "sys": { "type": "Link", "linkType": "Space", "id": "3okd8zp7ryvu" }
+          },
+          "id": "5Y0R6zzN10UpVEjR4raYbk",
+          "type": "Asset",
+          "createdAt": "2022-10-15T14:05:18.557Z",
+          "updatedAt": "2022-10-15T14:05:18.557Z",
+          "environment": {
+            "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "The Idiot",
+          "description": "",
+          "file": {
+            "url": "//images.ctfassets.net/3okd8zp7ryvu/5Y0R6zzN10UpVEjR4raYbk/5ec7d0fa473fb5fcfcd13e2ab7b4b333/idiot.jpg",
+            "details": {
+              "size": 6515,
+              "image": { "width": 182, "height": 277 }
+            },
+            "fileName": "idiot.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    "sys": { "id": "4ZpUQC5YGWvRi0hs6P8LKC", "type": "Entry" }
+  },
+  {
+    "fields": {
+      "title": "Demons",
+      "author": "Fyodor Dostoevsky",
+      "release": "1871–72",
+      "link": "https://en.wikipedia.org/wiki/Demons_(Dostoevsky_novel)",
+      "cover": {
+        "metadata": { "tags": [] },
+        "sys": {
+          "space": {
+            "sys": { "type": "Link", "linkType": "Space", "id": "3okd8zp7ryvu" }
+          },
+          "id": "4xVo1YHbJZfpqJBC50x1tW",
+          "type": "Asset",
+          "createdAt": "2022-10-15T14:02:25.964Z",
+          "updatedAt": "2022-10-15T14:02:25.964Z",
+          "environment": {
+            "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "Demons",
+          "description": "",
+          "file": {
+            "url": "//images.ctfassets.net/3okd8zp7ryvu/4xVo1YHbJZfpqJBC50x1tW/0f8a9d7e20e6160a719626a0f74b5fbf/demons.jpg",
+            "details": {
+              "size": 9539,
+              "image": { "width": 180, "height": 280 }
+            },
+            "fileName": "demons.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    "sys": { "id": "WnBItwpeIWBeEG6PmIYZE", "type": "Entry" }
+  },
+  {
+    "fields": {
+      "title": "Crime and Punishment",
+      "author": "Fyodor Dostoevsky",
+      "release": "1866",
+      "link": "https://en.wikipedia.org/wiki/Crime_and_Punishment",
+      "cover": {
+        "metadata": { "tags": [] },
+        "sys": {
+          "space": {
+            "sys": { "type": "Link", "linkType": "Space", "id": "3okd8zp7ryvu" }
+          },
+          "id": "4Q6Mx3Crf05ruRxWrmEjCG",
+          "type": "Asset",
+          "createdAt": "2022-10-15T14:00:42.923Z",
+          "updatedAt": "2022-10-15T14:00:42.923Z",
+          "environment": {
+            "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "Crime and Punishment",
+          "description": "",
+          "file": {
+            "url": "//images.ctfassets.net/3okd8zp7ryvu/4Q6Mx3Crf05ruRxWrmEjCG/f868e9fc7a91c0bba4db86b129baf101/crime-and-punishment.jpg",
+            "details": {
+              "size": 10210,
+              "image": { "width": 177, "height": 284 }
+            },
+            "fileName": "crime-and-punishment.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    "sys": { "id": "3gUkh1zkt8Esgyh7q3e2rg", "type": "Entry" }
+  },
+  {
+    "fields": {
+      "title": "Notes from Underground",
+      "author": "Fyodor Dostoevsky",
+      "release": "January–April 1864",
+      "link": "https://en.wikipedia.org/wiki/Notes_from_Underground",
+      "cover": {
+        "metadata": { "tags": [] },
+        "sys": {
+          "space": {
+            "sys": { "type": "Link", "linkType": "Space", "id": "3okd8zp7ryvu" }
+          },
+          "id": "3pt7Y1qJcicaugQXX8Kcpw",
+          "type": "Asset",
+          "createdAt": "2022-10-15T13:59:27.774Z",
+          "updatedAt": "2022-10-15T13:59:27.774Z",
+          "environment": {
+            "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "Notes from Underground",
+          "description": "",
+          "file": {
+            "url": "//images.ctfassets.net/3okd8zp7ryvu/3pt7Y1qJcicaugQXX8Kcpw/8992177d9f487a2545aa89c7b6ca52fd/notes-from-underground.jpg",
+            "details": {
+              "size": 8070,
+              "image": { "width": 179, "height": 282 }
+            },
+            "fileName": "notes-from-underground.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    "sys": { "id": "2RqYWc7sA4pdvPMVIlc2IE", "type": "Entry" }
+  },
+  {
+    "fields": {
+      "title": "The Adolescent",
+      "author": "Fyodor Dostoevsky",
+      "release": "1875",
+      "link": "https://en.wikipedia.org/wiki/The_Adolescent",
+      "cover": {
+        "metadata": { "tags": [] },
+        "sys": {
+          "space": {
+            "sys": { "type": "Link", "linkType": "Space", "id": "3okd8zp7ryvu" }
+          },
+          "id": "1lvY9L0V3M2lFKcU7MqSaJ",
+          "type": "Asset",
+          "createdAt": "2022-10-15T13:57:31.668Z",
+          "updatedAt": "2022-10-15T13:57:31.668Z",
+          "environment": {
+            "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "The Adolescent",
+          "description": "",
+          "file": {
+            "url": "//images.ctfassets.net/3okd8zp7ryvu/1lvY9L0V3M2lFKcU7MqSaJ/810e259cb5a3d55759f057a0112c8d6a/adolescent.jpg",
+            "details": {
+              "size": 6920,
+              "image": { "width": 181, "height": 279 }
+            },
+            "fileName": "adolescent.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    "sys": { "id": "3VZwahzFV09wgVy6bTGx8c", "type": "Entry" }
+  },
+  {
+    "fields": {
+      "title": "The Sun Also Rises",
+      "author": "Ernest Hemingway",
+      "release": "1926 ",
+      "link": "https://en.wikipedia.org/wiki/The_Sun_Also_Rises",
+      "cover": {
+        "metadata": { "tags": [] },
+        "sys": {
+          "space": {
+            "sys": { "type": "Link", "linkType": "Space", "id": "3okd8zp7ryvu" }
+          },
+          "id": "5N1Mt4II1lU2FhBW3t1K8N",
+          "type": "Asset",
+          "createdAt": "2022-10-15T13:56:03.138Z",
+          "updatedAt": "2022-10-15T13:56:03.138Z",
+          "environment": {
+            "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "The Sun Also Rises",
+          "description": "",
+          "file": {
+            "url": "//images.ctfassets.net/3okd8zp7ryvu/5N1Mt4II1lU2FhBW3t1K8N/bca9bb9d1901d78155f8d750bc2f87e1/sun-also-rises.jpg",
+            "details": {
+              "size": 13190,
+              "image": { "width": 182, "height": 277 }
+            },
+            "fileName": "sun-also-rises.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    "sys": { "id": "1xm1sXZknLMzr9vL6hhuIL", "type": "Entry" }
+  },
+  {
+    "fields": {
+      "title": "The Old Man and the Sea",
+      "author": "Ernest Hemingway",
+      "release": "1951 ",
+      "link": "https://en.wikipedia.org/wiki/The_Old_Man_and_the_Sea",
+      "cover": {
+        "metadata": { "tags": [] },
+        "sys": {
+          "space": {
+            "sys": { "type": "Link", "linkType": "Space", "id": "3okd8zp7ryvu" }
+          },
+          "id": "10NOL2nLhQvTkqqAj9ZRGB",
+          "type": "Asset",
+          "createdAt": "2022-10-15T13:54:59.040Z",
+          "updatedAt": "2022-10-17T09:25:36.912Z",
+          "environment": {
+            "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+          },
+          "revision": 2,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "The Old Man and the Sea",
+          "description": "",
+          "file": {
+            "url": "//images.ctfassets.net/3okd8zp7ryvu/10NOL2nLhQvTkqqAj9ZRGB/cffbce2d3e71401b73b0ad27972c2ef7/old-man-and-sea.jpg",
+            "details": {
+              "size": 10391,
+              "image": { "width": 181, "height": 279 }
+            },
+            "fileName": "old-man-and-sea.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    "sys": { "id": "1jZQorGAGQHj6rY3MsCLvN", "type": "Entry" }
+  },
+  {
+    "fields": {
+      "title": "From Whom the Bell Tolls",
+      "author": "Ernest Hemingway",
+      "release": "1940",
+      "link": "https://en.wikipedia.org/wiki/For_Whom_the_Bell_Tolls",
+      "cover": {
+        "metadata": { "tags": [] },
+        "sys": {
+          "space": {
+            "sys": { "type": "Link", "linkType": "Space", "id": "3okd8zp7ryvu" }
+          },
+          "id": "7B0F6CIq4jzruvpDYyKK0J",
+          "type": "Asset",
+          "createdAt": "2022-10-15T13:54:05.705Z",
+          "updatedAt": "2022-10-15T13:54:05.705Z",
+          "environment": {
+            "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "From Whom the Bell Tolls",
+          "description": "",
+          "file": {
+            "url": "//images.ctfassets.net/3okd8zp7ryvu/7B0F6CIq4jzruvpDYyKK0J/51fdb635102384ea23c336bfc2e5cfa7/from-whom-the-bell-tolls.jpg",
+            "details": {
+              "size": 10954,
+              "image": { "width": 182, "height": 277 }
+            },
+            "fileName": "from-whom-the-bell-tolls.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    "sys": { "id": "5bYYdkcUibzCSUZfRRasFR", "type": "Entry" }
+  },
+  {
+    "fields": {
+      "title": "Divine Comedy",
+      "author": "Dante Alighieri",
+      "release": "1320",
+      "link": "https://en.wikipedia.org/wiki/Divine_Comedy",
+      "cover": {
+        "metadata": { "tags": [] },
+        "sys": {
+          "space": {
+            "sys": { "type": "Link", "linkType": "Space", "id": "3okd8zp7ryvu" }
+          },
+          "id": "7sXeUh4evxFbc8KFmT8SsG",
+          "type": "Asset",
+          "createdAt": "2022-10-15T13:53:20.178Z",
+          "updatedAt": "2022-10-15T13:53:20.178Z",
+          "environment": {
+            "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "Divine Comedy",
+          "description": "",
+          "file": {
+            "url": "//images.ctfassets.net/3okd8zp7ryvu/7sXeUh4evxFbc8KFmT8SsG/70360b4abc592c423cd0ddf8e6164ef5/divine-comedy.jpg",
+            "details": {
+              "size": 13615,
+              "image": { "width": 185, "height": 273 }
+            },
+            "fileName": "divine-comedy.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    "sys": { "id": "DH9dCp673lsE8LN1D2mkV", "type": "Entry" }
+  },
+  {
+    "fields": {
+      "title": "The Decameron",
+      "author": "Giovanni Boccaccio",
+      "release": "1353",
+      "link": "https://en.wikipedia.org/wiki/The_Decameron",
+      "cover": {
+        "metadata": { "tags": [] },
+        "sys": {
+          "space": {
+            "sys": { "type": "Link", "linkType": "Space", "id": "3okd8zp7ryvu" }
+          },
+          "id": "191lEcMjiO4YPojKsSp82K",
+          "type": "Asset",
+          "createdAt": "2022-10-15T13:51:12.533Z",
+          "updatedAt": "2022-10-15T13:51:12.533Z",
+          "environment": {
+            "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "The Decameron",
+          "description": "",
+          "file": {
+            "url": "//images.ctfassets.net/3okd8zp7ryvu/191lEcMjiO4YPojKsSp82K/24f9e56d091894187a9eabd76a6aca3b/decameron.jpg",
+            "details": {
+              "size": 9980,
+              "image": { "width": 175, "height": 288 }
+            },
+            "fileName": "decameron.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    "sys": { "id": "2kj6zQydRuyMgk2vCNw0hd", "type": "Entry" }
+  },
+  {
+    "fields": {
+      "title": "Sans famille",
+      "author": "Hector Malot",
+      "release": "1878",
+      "link": "https://en.wikipedia.org/wiki/Sans_Famille",
+      "cover": {
+        "metadata": { "tags": [] },
+        "sys": {
+          "space": {
+            "sys": { "type": "Link", "linkType": "Space", "id": "3okd8zp7ryvu" }
+          },
+          "id": "3R2ygJKSwDpRlS9H9wgG6y",
+          "type": "Asset",
+          "createdAt": "2022-10-15T13:40:53.734Z",
+          "updatedAt": "2022-10-15T13:40:53.734Z",
+          "environment": {
+            "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "Sans Famille",
+          "description": "",
+          "file": {
+            "url": "//images.ctfassets.net/3okd8zp7ryvu/3R2ygJKSwDpRlS9H9wgG6y/e0d810d17f4986f83d99d3e066687b75/sans-famille.jpg",
+            "details": {
+              "size": 7864,
+              "image": { "width": 187, "height": 269 }
+            },
+            "fileName": "sans-famille.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    "sys": { "id": "3mWaMLX4FRH5wL6sIHvPTB", "type": "Entry" }
+  },
+  {
+    "fields": {
+      "title": "The Adventures of Tom Sawyer",
+      "author": "Mark Twain",
+      "release": "1876",
+      "link": "https://en.wikipedia.org/wiki/The_Adventures_of_Tom_Sawyer",
+      "cover": {
+        "metadata": { "tags": [] },
+        "sys": {
+          "space": {
+            "sys": { "type": "Link", "linkType": "Space", "id": "3okd8zp7ryvu" }
+          },
+          "id": "3bYkhFl023KxSp2mNlm3UJ",
+          "type": "Asset",
+          "createdAt": "2022-10-15T13:42:12.310Z",
+          "updatedAt": "2022-10-15T13:42:12.310Z",
+          "environment": {
+            "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "The Adventures of Tom Sawyer",
+          "description": "",
+          "file": {
+            "url": "//images.ctfassets.net/3okd8zp7ryvu/3bYkhFl023KxSp2mNlm3UJ/8039379cac0d38daa695dddcd1eaffc9/tom-sawyer.jpg",
+            "details": {
+              "size": 13629,
+              "image": { "width": 176, "height": 286 }
+            },
+            "fileName": "tom-sawyer.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    "sys": { "id": "28mR7aTFuMPEmBUyDrhoRG", "type": "Entry" }
+  },
+  {
+    "fields": {
+      "title": "The Life and Opinions of Tristram Shandy, Gentleman",
+      "author": "Laurence Stern",
+      "release": "1759-67",
+      "link": "https://en.wikipedia.org/wiki/The_Life_and_Opinions_of_Tristram_Shandy,_Gentleman",
+      "cover": {
+        "metadata": { "tags": [] },
+        "sys": {
+          "space": {
+            "sys": { "type": "Link", "linkType": "Space", "id": "3okd8zp7ryvu" }
+          },
+          "id": "01tUb41eNq7KY0YPv7Q7s9",
+          "type": "Asset",
+          "createdAt": "2022-10-15T13:43:22.788Z",
+          "updatedAt": "2022-10-15T13:43:22.788Z",
+          "environment": {
+            "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "The Life and Opinions of Tristram Shandy, Gentleman",
+          "description": "",
+          "file": {
+            "url": "//images.ctfassets.net/3okd8zp7ryvu/01tUb41eNq7KY0YPv7Q7s9/ae5ecc8a06f8f02853c75a6793676146/tristam-shandy.jpg",
+            "details": {
+              "size": 10114,
+              "image": { "width": 181, "height": 278 }
+            },
+            "fileName": "tristam-shandy.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    "sys": { "id": "5GhKfCN9RXn7SxXvsscuCW", "type": "Entry" }
+  },
+  {
+    "fields": {
+      "title": "The Master and Margarita",
+      "author": "Mikhail Bulgakov",
+      "release": "1966–67",
+      "link": "https://en.wikipedia.org/wiki/The_Master_and_Margarita",
+      "cover": {
+        "metadata": { "tags": [] },
+        "sys": {
+          "space": {
+            "sys": { "type": "Link", "linkType": "Space", "id": "3okd8zp7ryvu" }
+          },
+          "id": "4e9jLxeaYghBoIW41mNiYx",
+          "type": "Asset",
+          "createdAt": "2022-10-15T13:44:21.081Z",
+          "updatedAt": "2022-10-15T13:44:21.081Z",
+          "environment": {
+            "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "The Master and Margarita",
+          "description": "",
+          "file": {
+            "url": "//images.ctfassets.net/3okd8zp7ryvu/4e9jLxeaYghBoIW41mNiYx/1f026601531d5d20353bffd05a8eb361/master-and-margarita.jpg",
+            "details": {
+              "size": 15719,
+              "image": { "width": 183, "height": 275 }
+            },
+            "fileName": "master-and-margarita.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    "sys": { "id": "6DBclEnaNDsAiejc1uF8hD", "type": "Entry" }
+  },
+  {
+    "fields": {
+      "title": "Norwegian Wood",
+      "author": "Haruki Murakami",
+      "release": "1987 ",
+      "link": "https://en.wikipedia.org/wiki/Norwegian_Wood_(novel)",
+      "cover": {
+        "metadata": { "tags": [] },
+        "sys": {
+          "space": {
+            "sys": { "type": "Link", "linkType": "Space", "id": "3okd8zp7ryvu" }
+          },
+          "id": "4AklLhVHPKYKTycmUUMErg",
+          "type": "Asset",
+          "createdAt": "2022-10-15T13:46:33.464Z",
+          "updatedAt": "2022-10-15T13:46:33.464Z",
+          "environment": {
+            "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "Norwegian Wood",
+          "description": "",
+          "file": {
+            "url": "//images.ctfassets.net/3okd8zp7ryvu/4AklLhVHPKYKTycmUUMErg/ae970c826666f47a4f7d529d3b87b4f1/norwegian-wood.jpg",
+            "details": {
+              "size": 12578,
+              "image": { "width": 186, "height": 271 }
+            },
+            "fileName": "norwegian-wood.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    "sys": { "id": "49OkMnjfaPdf6FVcKLZvqa", "type": "Entry" }
+  },
+  {
+    "fields": {
+      "title": "Hard-Boiled Wonderland and the End of the World",
+      "author": "Haruki Murakami",
+      "release": "1985",
+      "link": "https://en.wikipedia.org/wiki/Hard-Boiled_Wonderland_and_the_End_of_the_World",
+      "cover": {
+        "metadata": { "tags": [] },
+        "sys": {
+          "space": {
+            "sys": { "type": "Link", "linkType": "Space", "id": "3okd8zp7ryvu" }
+          },
+          "id": "37jVDaW61TMjlxGHNRK76U",
+          "type": "Asset",
+          "createdAt": "2022-10-15T13:45:16.946Z",
+          "updatedAt": "2022-10-15T13:45:16.946Z",
+          "environment": {
+            "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "Hard-Boiled Wonderland and the End of the World",
+          "description": "",
+          "file": {
+            "url": "//images.ctfassets.net/3okd8zp7ryvu/37jVDaW61TMjlxGHNRK76U/ab640731b5ba6a25e88793e4b462489d/hard-boiled-wonderland.jpg",
+            "details": {
+              "size": 6945,
+              "image": { "width": 175, "height": 266 }
+            },
+            "fileName": "hard-boiled-wonderland.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    "sys": { "id": "5b8Axi79xpygiuQuJ0FRSX", "type": "Entry" }
+  },
+  {
+    "fields": {
+      "title": "Colorless Tsukuru Tazaki and His Years of Pilgrimage",
+      "author": "Haruki Murakami",
+      "release": "2013",
+      "link": "https://en.wikipedia.org/wiki/Colorless_Tsukuru_Tazaki_and_His_Years_of_Pilgrimage",
+      "cover": {
+        "metadata": { "tags": [] },
+        "sys": {
+          "space": {
+            "sys": { "type": "Link", "linkType": "Space", "id": "3okd8zp7ryvu" }
+          },
+          "id": "3vxDFA1GgYwaCh6a5gevxy",
+          "type": "Asset",
+          "createdAt": "2022-10-15T13:47:36.032Z",
+          "updatedAt": "2022-10-15T13:47:36.032Z",
+          "environment": {
+            "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "Colorless Tsukuru Tazaki and His Years of Pilgrimage",
+          "description": "",
+          "file": {
+            "url": "//images.ctfassets.net/3okd8zp7ryvu/3vxDFA1GgYwaCh6a5gevxy/02a7ec9df8c796e9c1cf349e9ee19f82/colorless-tsukuru.jpg",
+            "details": {
+              "size": 7101,
+              "image": { "width": 181, "height": 279 }
+            },
+            "fileName": "colorless-tsukuru.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    "sys": { "id": "79uqyOVUsMscbQGSr4duqO", "type": "Entry" }
+  },
+  {
+    "fields": {
+      "title": "South of the Border, West of the Sun",
+      "author": "Haruki Murakami",
+      "release": "2000",
+      "link": "https://en.wikipedia.org/wiki/South_of_the_Border,_West_of_the_Sun",
+      "cover": {
+        "metadata": { "tags": [] },
+        "sys": {
+          "space": {
+            "sys": { "type": "Link", "linkType": "Space", "id": "3okd8zp7ryvu" }
+          },
+          "id": "7HXC1oCSBuo1EwAN7X1CSt",
+          "type": "Asset",
+          "createdAt": "2022-10-15T13:48:27.418Z",
+          "updatedAt": "2022-10-15T13:48:27.418Z",
+          "environment": {
+            "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "South of the Border, West of the Sun",
+          "description": "",
+          "file": {
+            "url": "//images.ctfassets.net/3okd8zp7ryvu/7HXC1oCSBuo1EwAN7X1CSt/abae20441276e727a069cca5a2f2258e/south-border-west-sun.jpg",
+            "details": {
+              "size": 10274,
+              "image": { "width": 181, "height": 279 }
+            },
+            "fileName": "south-border-west-sun.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    "sys": { "id": "2JlRVtuNjjLV3QmsM3sM4a", "type": "Entry" }
+  },
+  {
+    "fields": {
+      "title": "Odyssey",
+      "author": "Homer",
+      "release": "8th century BCE",
+      "link": "https://en.wikipedia.org/wiki/Odyssey",
+      "cover": {
+        "metadata": { "tags": [] },
+        "sys": {
+          "space": {
+            "sys": { "type": "Link", "linkType": "Space", "id": "3okd8zp7ryvu" }
+          },
+          "id": "3i8EvmHljfPbq7fQNaPj9J",
+          "type": "Asset",
+          "createdAt": "2022-10-15T13:49:25.178Z",
+          "updatedAt": "2022-10-15T13:49:25.178Z",
+          "environment": {
+            "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "Odyssey",
+          "description": "",
+          "file": {
+            "url": "//images.ctfassets.net/3okd8zp7ryvu/3i8EvmHljfPbq7fQNaPj9J/21a8fe73c59280ed85875807083f5daf/odyssey.jpg",
+            "details": {
+              "size": 11724,
+              "image": { "width": 178, "height": 283 }
+            },
+            "fileName": "odyssey.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    "sys": { "id": "1npC0OYrv7agp5YZDgIzdz", "type": "Entry" }
+  }
+]
