@@ -6,8 +6,8 @@ import { flip } from "lodash";
 import axiosData from "../utils/axiosData";
 
 export async function loader() {
-  const { getData } = axiosData();
-  const { art } = await getData();
+  const { getArt } = axiosData();
+  const art = await getArt();
   return { art };
 }
 

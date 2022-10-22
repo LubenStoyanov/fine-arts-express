@@ -3,14 +3,13 @@ import { useLoaderData } from "react-router-dom";
 import axiosData from "../utils/axiosData";
 
 export async function loader() {
-  const { getData } = axiosData();
-  const { music } = await getData();
+  const { getMusic } = axiosData();
+  const music = await getMusic();
   return { music };
 }
 
 export default function Music() {
   const { music } = useLoaderData();
-  console.log(music);
 
   const mappedMusic = music.map((song) => (
     <div>
@@ -26,7 +25,7 @@ export default function Music() {
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
+              allowFullScreen
             ></iframe>
           </div>
         </div>
