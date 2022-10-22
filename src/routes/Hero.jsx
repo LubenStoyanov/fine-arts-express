@@ -4,25 +4,21 @@ import RandomArt from "../components/RandomArt";
 import RandomMusic from "../components/RandomMusic";
 import Searchbar from "./Searchbar";
 import { Link, useLoaderData } from "react-router-dom";
-import contentful from "../data/fetchData";
+import axiosData from "../utils/axiosData";
 import { sample } from "lodash";
 import useForceUpdate from "use-force-update";
 
 export async function loader() {
-  const { getBooks, getArt, getMusic } = contentful();
-  const books = await getBooks();
-  const art = await getArt();
-  const music = await getMusic();
-
+  const { getData } = axiosData();
+  const { books, art, music } = await getData();
   return { books, art, music };
 }
 
 export default function Hero() {
   const { books, art, music } = useLoaderData();
-
   const book = sample(books);
-  const fart = sample(art);
   const song = sample(music);
+  const fart = sample(art);
 
   const forceUpdate = useForceUpdate();
 

@@ -1,17 +1,14 @@
 import React from "react";
 import { useLoaderData } from "react-router-dom";
-import contentful from "../data/fetchData";
-import search from "../search";
+import axiosData from "../utils/axiosData";
+import search from "../utils/search";
 
 export async function loader({ request }) {
   let url = new URL(request.url);
   let searchTerm = url.searchParams.get("query");
 
-  const { getBooks, getArt, getMusic } = contentful();
-
-  const art = await getArt();
-  const music = await getMusic();
-  const books = await getBooks();
+  const { getData } = axiosData();
+  const { books, art, music } = await getData();
 
   const works = search(searchTerm, art, books, music);
   return { works };

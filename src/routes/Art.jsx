@@ -2,12 +2,12 @@ import { useState } from "react";
 import { Link } from "react-router-dom/dist";
 import { useLoaderData } from "react-router-dom";
 import shuffle from "lodash/shuffle";
-import contentful from "../data/fetchData";
 import { flip } from "lodash";
+import axiosData from "../utils/axiosData";
 
 export async function loader() {
-  const { getArt } = contentful();
-  const art = await getArt();
+  const { getData } = axiosData();
+  const { art } = await getData();
   return { art };
 }
 

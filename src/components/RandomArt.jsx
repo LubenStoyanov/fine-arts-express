@@ -1,6 +1,5 @@
 import { sample } from "lodash";
 import { useLoaderData } from "react-router-dom";
-import useContentful from "../data/fetchData";
 
 const RandomArt = ({ fart }) => {
   // console.log(fart);

@@ -1,7 +1,21 @@
 import express from "express";
-import axios from "axios";
+import data from "./data/data.json" assert { type: "json" };
 
 const app = express();
-const port = process.env.PORT || 5000;
+const port = 5000;
 
-app.listen(port, console.log(`Server running on ${port}`));
+app.use((req, res, next) => {
+  // res.setHeader("Access-Control-Allow-Origin", "*");
+  next();
+});
+
+app.get("/", (req, res, next) => {
+  try {
+    res.send(data);
+  } catch (err) {
+    console.log("Unlucky error: ");
+    next(err);
+  }
+});
+
+app.listen(port, console.log(`Server running on http://localhost:${port}`));

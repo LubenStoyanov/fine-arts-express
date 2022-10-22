@@ -1,10 +1,10 @@
 import React from "react";
 import { useLoaderData } from "react-router-dom";
-import contentful from "../data/fetchData";
+import axiosData from "../utils/axiosData";
 
 export async function loader() {
-  const { getMusic } = contentful();
-  const music = await getMusic();
+  const { getData } = axiosData();
+  const { music } = await getData();
   return { music };
 }
 
