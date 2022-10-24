@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "start-server": "nodemon server/server-db.js"
+    "start-sqlite": "nodemon server/server-sqlite.js",
+    "start-psql": "nodemon server/server-psql.js"
   },
   "dependencies": {
     "@material-tailwind/react": "^1.2.4",
@@ -15,10 +16,13 @@
     "bun": "^0.0.12",
     "contentful": "^9.2.5",
     "contentful-cli": "^1.15.25",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "kill-port": "^2.0.1",
     "lodash": "^4.17.21",
     "nodemon": "^2.0.20",
+    "pg": "^8.8.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.37.0",

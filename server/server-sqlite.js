@@ -1,8 +1,9 @@
 import express from "express";
-import { sequelize as db } from "./db.js";
+import { sequelize as db } from "./db-sql";
 import data from "../src/data/data.json" assert { type: "json" };
 import { createBooksTable } from "./controllers/book-controller.js";
 import { Book } from "./models/book.js";
+import cors from "cors"; // TODO Implement it
 
 const app = express();
 const port = process.env.PORT || 5000;
