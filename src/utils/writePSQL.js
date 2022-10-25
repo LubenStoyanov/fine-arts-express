@@ -7,27 +7,28 @@ import data from "../data/data.json" assert { type: "json" };
 const client = new Client({
   user: process.env.VITE_DB_USER,
   password: process.env.VITE_DB_PASSWORD,
-  host: "localhost",
-  database: "finearts",
+  host: process.env.VITE_DB_HOST,
+  database: process.env.VITE_DB_NAME,
 });
 
 (async () => {
   try {
     await client.connect();
     console.log("Successfuly connect to database...");
-    const queryText = "INSERT INTO books VALUES ($1,$2,$3,$4,$5,$6)";
+    const queryText = `
+    INSERT INTO books(id, title, author, release, link, cover)
+    VALUES ($1,$2,$3,$4,$5,$6)`;
 
     (async () => {
       const books = data.books.forEach(async (book) => {
-        console.log(">>>>>>>>>>", typeof book.sys.id === typeof "");
         try {
           await client.query(queryText, [
             book.sys.id,
             book.fields.title,
-            book.fields.author,
+            book.fields.artist,
             book.fields.release,
-            book.fields.link,
             book.fields.cover.fields.file.url,
+            book.fields.link,
           ]);
         } catch (error) {
           console.log("Failed to write table", error);

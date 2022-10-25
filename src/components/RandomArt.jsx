@@ -6,7 +6,7 @@ const RandomArt = ({ fart }) => {
   return (
     <div className="basis-1/3 sm:w-max sm:h-max">
       <img
-        src={fart.fields.artworks[0].fields.file.url}
+        src={fart.artworks}
         className="max-w-sm rounded-lg shadow-2xl"
         style={{ width: "auto", height: 300, objectFit: "contain" }}
       />

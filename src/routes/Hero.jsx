@@ -40,7 +40,7 @@ export default function Hero() {
           <Link to={`heroBook/:bookId`}>
             <RandomBook book={book} />
           </Link>
-          <Link to={`heroArt/:${fart.fields.title}`}>
+          <Link to={`heroArt/:${fart.title}`}>
             <RandomArt fart={fart} />
           </Link>
           <Link to={`heroMusic/:songId`}>

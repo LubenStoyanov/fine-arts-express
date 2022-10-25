@@ -18,19 +18,19 @@ export default function Works() {
   const { works } = useLoaderData();
 
   const mappedWorks = works.map((work) => (
-    <div key={work.sys.id}>
+    <div key={work.id}>
       <label className="swap swap-flip">
         <input type="checkbox" />
         <div className="swap-on">
           <div className="flex-col items-center justify-center font-bold card card-compact w-60 sm:w-full sm:h-full bg-base-100 shadow-xl">
-            <h2 className="text-center">{work.fields.title}</h2>
+            <h2 className="text-center">{work.title}</h2>
             <span className="text-center">by</span>
             <p className="text-center">
-              {work.fields.author ? work.fields.author : work.fields.artist}
+              {work.author ? work.author : work.artist}
             </p>
             <a
               target="blank"
-              href={work.fields.link}
+              href={work.link}
               className="btn btn-primary w-40 self-center "
             >
               More Info
@@ -41,13 +41,9 @@ export default function Works() {
           <figure>
             <img
               className=""
-              src={
-                work.fields.artworks
-                  ? work.fields.artworks[0].fields.file.url
-                  : work.fields.cover.fields.file.url
-              }
-              alt={`Book cover of ${work.fields.title} by ${
-                work.fields.artist ? work.fields.artist : work.fields.author
+              src={work.artworks ? work.artworks : work.cover}
+              alt={`Book cover of ${work.title} by ${
+                work.artist ? work.artist : work.author
               }`}
             />
           </figure>

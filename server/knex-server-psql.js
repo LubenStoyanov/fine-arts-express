@@ -1,6 +1,7 @@
+import helmet from "helmet";
 import express from "express";
-import { pool } from "./db-psql.js";
 import cors from "cors";
+import db from "./db-psql.js";
 
 const app = express();
 const port = process.env.PORT || 8080;
@@ -10,12 +11,15 @@ app.use(helmet());
 
 app.get("/api/all", async (req, res) => {
   try {
-    await pool.connect();
+    await db.raw("select 1");
     console.log("Succesfully connected to database...");
 
-    const { rows } = await pool.query("SELECT * FROM books");
+    const books = await db("books");
+    const songs = await db("songs");
+    const art = await db("art");
+    const data = { music: songs, art: art, books: books };
 
-    res.send(rows);
+    res.json(data);
   } catch (error) {
     console.error("Failed to connect to database...\n", error);
   }
@@ -23,13 +27,11 @@ app.get("/api/all", async (req, res) => {
 
 app.get("/api/books", async (req, res) => {
   try {
-    await pool.connect();
+    await db.raw("select 1");
     console.log("Succesfully connected to database...");
 
-    const { rows } = await pool.query("SELECT * FROM books");
-    console.log(rows);
-
-    res.send(rows);
+    const books = await db("books");
+    res.json(books);
   } catch (error) {
     console.error("Failed to connect to database...\n", error);
   }
@@ -37,13 +39,12 @@ app.get("/api/books", async (req, res) => {
 
 app.get("/api/music", async (req, res) => {
   try {
-    await pool.connect();
+    await db.raw("select 1");
     console.log("Succesfully connected to database...");
 
-    const { rows } = await pool.query("SELECT * FROM books");
-    console.log(rows);
+    const songs = await db("songs");
 
-    res.send(rows);
+    res.json(songs);
   } catch (error) {
     console.error("Failed to connect to database...\n", error);
   }
@@ -51,13 +52,12 @@ app.get("/api/music", async (req, res) => {
 
 app.get("/api/art", async (req, res) => {
   try {
-    await pool.connect();
+    await db.raw("select 1");
     console.log("Succesfully connected to database...");
 
-    const { rows } = await pool.query("SELECT * FROM books");
-    console.log(rows);
+    const art = await db("art");
 
-    res.send(rows);
+    res.json(art);
   } catch (error) {
     console.error("Failed to connect to database...\n", error);
   }
