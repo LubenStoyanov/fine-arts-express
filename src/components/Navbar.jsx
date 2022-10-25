@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <div data-theme="garden" className="navbar">
-      <div className="navbar-start text-primary">
-        <Link to={`/`} className="btn btn-ghost w-20 normal-case text-xl ">
+    <div className="navbar max-w-7xl self-center">
+      <div className="h-10 navbar-start text-primary">
+        <Link to={`/`} className="w-20 normal-case text-xl ">
           <img src="/Logo2.png" />
         </Link>
       </div>
@@ -29,7 +29,7 @@ export default function Navbar() {
           </label>
           <ul
             tabIndex={0}
-            className="menu menu-compact dropdown-content shadow bg-base-100 text-primary rounded-box w-22"
+            className="menu menu-compact dropdown-content shadow bg-base-100 text-primary rounded-box w-22 text-lg font-semibold"
           >
             <li>
               <Link to={`music`}>Music</Link>
@@ -44,7 +44,7 @@ export default function Navbar() {
         </div>
       </div>
       <div className="navbar-end text-primary hidden md:flex">
-        <ul className="menu menu-horizontal p-0">
+        <ul className="menu menu-horizontal p-0 text-lg font-semibold">
           <li>
             <Link to={`music`}>Music</Link>
           </li>

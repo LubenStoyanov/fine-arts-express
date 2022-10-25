@@ -2,11 +2,11 @@ import React from "react";
 import RandomBook from "../components/RandomBook";
 import RandomArt from "../components/RandomArt";
 import RandomMusic from "../components/RandomMusic";
-import Searchbar from "./Searchbar";
 import { Link, useLoaderData } from "react-router-dom";
 import axiosData from "../utils/axiosData";
 import { sample } from "lodash";
 import useForceUpdate from "use-force-update";
+import Searchbar from "../components/Searchbar";
 
 export async function loader() {
   const { getData } = axiosData();
@@ -27,7 +27,7 @@ export default function Hero() {
       <div className="hero-content flex-col">
         <div>
           <h1 className="text-5xl font-bold">Enjoy the Art</h1>
-          <p className="py-6">
+          <p className="py-6 text-base">
             Experience 3 types of different fine art genres.
           </p>
           <div className="flex justify-center">
@@ -36,13 +36,16 @@ export default function Hero() {
             </button>
           </div>
         </div>
-        <div className="flex flex-col sm:flex-row space-x-10">
+        <div className="flex flex-col sm:flex-row space-y-5 sm:space-x-10">
+          <div></div>
           <Link to={`heroBook/:bookId`}>
             <RandomBook book={book} />
           </Link>
+          <div></div>
           <Link to={`heroArt/:${fart.title}`}>
             <RandomArt fart={fart} />
           </Link>
+          <div></div>
           <Link to={`heroMusic/:songId`}>
             <RandomMusic song={song} />
           </Link>

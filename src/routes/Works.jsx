@@ -1,5 +1,6 @@
 import React from "react";
 import { useLoaderData } from "react-router-dom";
+import Searchbar from "../components/Searchbar";
 import axiosData from "../utils/axiosData";
 import search from "../utils/search";
 
@@ -57,10 +58,11 @@ export default function Works() {
       <div className="container prose h1 my-10">
         <h1 style={{ textAlign: "center" }}>Works</h1>
       </div>
-      <div className="flex flex-col sm:flex-row sm:flex-wrap space-y-10 space-x-5">
+      <div className="flex flex-col sm:flex-row sm:flex-wrap space-y-10 space-x-5 mb-10">
         <div></div>
         {mappedWorks}
       </div>
+      <Searchbar />
     </div>
   );
 }
