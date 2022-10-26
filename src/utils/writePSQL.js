@@ -38,6 +38,5 @@ const client = new Client({
     console.log("Successfully write books table...");
   } catch (error) {
     console.error("Failed to connect to database...\n", error);
-  } finally {
   }
 })();

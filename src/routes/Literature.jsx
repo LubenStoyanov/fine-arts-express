@@ -1,5 +1,6 @@
 import React from "react";
 import { useLoaderData } from "react-router-dom";
+import { shuffle } from "lodash";
 import axiosData from "../utils/axiosData";
 
 export async function loader() {
@@ -10,8 +11,8 @@ export async function loader() {
 
 export default function Literature() {
   const { books } = useLoaderData();
-  const mappedBooks = books.map((book) => (
-    <div key={book.id}>
+  const mappedBooks = shuffle(books).map((book) => (
+    <div className="inline-block" key={book.id}>
       <label className="swap swap-flip ">
         <input type="checkbox" />
         <div className="swap-on ">
@@ -27,7 +28,7 @@ export default function Literature() {
             <span className="m-6 mt-2 text-secondary"></span>
           </div>
         </div>
-        <div className="card card-compact w-60 sm:w-40 bg-base-100 shadow-xl swap-off">
+        <div className="card card-compact w-max h-max bg-base-100 shadow-xl swap-off">
           <figure className="h-full">
             <img
               src={book.cover}

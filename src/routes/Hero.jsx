@@ -26,9 +26,9 @@ export default function Hero() {
     <div className="hero min-h-screen bg-base-200">
       <div className="hero-content flex-col">
         <div>
-          <h1 className="text-5xl font-bold">Enjoy the Art</h1>
-          <p className="py-6 text-base">
-            Experience 3 types of different fine art genres.
+          <h1 className="text-5xl font-bold text-center">Enjoy the Art</h1>
+          <p className="py-6 text-lg sm:text-2xl text-center">
+            Experience 3 types of fine art.
           </p>
           <div className="flex justify-center">
             <button className=" btn btn-primary" onClick={forceUpdate}>
