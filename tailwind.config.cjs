@@ -5,7 +5,15 @@ module.exports = {
     extend: {},
   },
   daisyui: {
-    themes: ["garden", "retro", "bumblebee", "luxury", "pastel", "emerald"],
+    themes: [
+      "forest",
+      "garden",
+      "retro",
+      "bumblebee",
+      "luxury",
+      "pastel",
+      "emerald",
+    ],
   },
   plugins: [require("@tailwindcss/typography"), require("daisyui")],
 };

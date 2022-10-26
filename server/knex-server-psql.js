@@ -37,6 +37,22 @@ app.get("/api/books", async (req, res) => {
   }
 });
 
+app.get("/api/book/:id", async (req, res) => {
+  try {
+    await db.raw("SELECT 1");
+    console.log("Successfully connected to database...");
+
+    const [book] = await db("books").where({
+      id: req.params.id,
+    });
+
+    res.json(book);
+    console.log("Succesfully send book...");
+  } catch (error) {
+    console.log("Failed to get book...", error);
+  }
+});
+
 app.get("/api/music", async (req, res) => {
   try {
     await db.raw("select 1");

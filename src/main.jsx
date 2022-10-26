@@ -8,7 +8,7 @@ import Art, { loader as artLoader } from "./routes/Art";
 import Works, { loader as worksLoader } from "./routes/Works";
 import Hero, { loader as heroLoader } from "./routes/Hero";
 import "./index.css";
-import HeroBook from "./routes/HeroBook";
+import HeroBook, { loader as bookLoader } from "./routes/HeroBook";
 import HeroMusic from "./routes/HeroMusic";
 import HeroArt from "./routes/HeroArt";
 
@@ -18,12 +18,12 @@ const router = createBrowserRouter([
     element: <Root />,
     children: [
       {
-        path: "/",
+        index: true,
         element: <Hero />,
         loader: heroLoader,
       },
       {
-        path: "literature",
+        path: "literature/",
         element: <Literature />,
         loader: literatureLoader,
       },
@@ -43,8 +43,9 @@ const router = createBrowserRouter([
         loader: worksLoader,
       },
       {
-        path: "heroBook/:bookId",
+        path: "book/:title/:id",
         element: <HeroBook />,
+        loader: bookLoader,
       },
       {
         path: "heroMusic/:songId",

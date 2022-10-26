@@ -5,8 +5,8 @@ import axiosData from "../utils/axiosData";
 import search from "../utils/search";
 
 export async function loader({ request }) {
-  let url = new URL(request.url);
-  let searchTerm = url.searchParams.get("query");
+  const url = new URL(request.url);
+  const searchTerm = url.searchParams.get("query");
 
   const { getData } = axiosData();
   const { books, art, music } = await getData();

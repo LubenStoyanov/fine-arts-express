@@ -38,15 +38,19 @@ export default function Hero() {
         </div>
         <div className="flex flex-col sm:flex-row space-y-5 sm:space-x-10">
           <div></div>
-          <Link to={`heroBook/:bookId`}>
+          <Link
+            to={`book/${book.title.toLowerCase().replace(/\s+/g, "-")}/${
+              book.id
+            }`}
+          >
             <RandomBook book={book} />
           </Link>
           <div></div>
-          <Link to={`heroArt/:${fart.title}`}>
+          <Link to={`works/:${fart.title}`}>
             <RandomArt fart={fart} />
           </Link>
           <div></div>
-          <Link to={`heroMusic/:songId`}>
+          <Link to={`works/:songId`}>
             <RandomMusic song={song} />
           </Link>
         </div>
