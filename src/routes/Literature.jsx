@@ -11,6 +11,7 @@ export async function loader() {
 
 export default function Literature() {
   const { books } = useLoaderData();
+
   const mappedBooks = shuffle(books).map((book) => (
     <div className="inline-block" key={book.id}>
       <label className="swap swap-flip ">

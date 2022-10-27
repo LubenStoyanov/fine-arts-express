@@ -27,6 +27,7 @@ app.get("/api/books", (req, res, next) => {
     next(err);
   }
 });
+
 app.get("/api/music", (req, res, next) => {
   try {
     console.log("server", data.books.length);
@@ -36,6 +37,7 @@ app.get("/api/music", (req, res, next) => {
     next(err);
   }
 });
+
 app.get("/api/art", (req, res, next) => {
   try {
     console.log("server", data.books.length);
@@ -45,4 +47,5 @@ app.get("/api/art", (req, res, next) => {
     next(err);
   }
 });
+
 app.listen(port, console.log(`Server running on http://localhost:${port}`));

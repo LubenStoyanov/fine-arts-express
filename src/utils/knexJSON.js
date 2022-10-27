@@ -12,7 +12,6 @@ const db = knex({
     password: process.env.VITE_DB_PASSWORD,
     database: process.env.VITE_DB_NAME,
   },
-  // pool: { min: 0, max: 10 },
   searchPath: ["knex", "public"],
 });
 
@@ -24,6 +23,7 @@ const db = knex({
     console.error("Failed to connect to database...\n", err);
   }
 })();
+
 // (async () => {
 //   try {
 //     data.music.map(async (song) => {
