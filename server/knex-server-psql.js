@@ -1,23 +1,18 @@
-import helmet from "helmet";
 import express from "express";
 import cors from "cors";
 import db from "./db-psql.js";
+import connectDB from "./utils/connect-db.js";
+import dataAll from "./utils/dataAll.js";
 
 const app = express();
 const port = process.env.PORT || 8080;
 
 app.use(cors());
-app.use(helmet());
 
 app.get("/api/all", async (req, res) => {
   try {
-    await db.raw("select 1");
-    console.log("Succesfully connected to database...");
-
-    const books = await db("books");
-    const songs = await db("songs");
-    const art = await db("art");
-    const data = { music: songs, art: art, books: books };
+    connectDB();
+    const data = await dataAll();
 
     res.json(data);
   } catch (error) {
@@ -27,9 +22,7 @@ app.get("/api/all", async (req, res) => {
 
 app.get("/api/books", async (req, res) => {
   try {
-    await db.raw("select 1");
-    console.log("Succesfully connected to database...");
-
+    connectDB();
     const books = await db("books");
     res.json(books);
   } catch (error) {
@@ -39,9 +32,7 @@ app.get("/api/books", async (req, res) => {
 
 app.get("/api/book/:id", async (req, res) => {
   try {
-    await db.raw("SELECT 1");
-    console.log("Successfully connected to database...");
-
+    connectDB();
     const [book] = await db("books").where({
       id: req.params.id,
     });
@@ -55,9 +46,7 @@ app.get("/api/book/:id", async (req, res) => {
 
 app.get("/api/music", async (req, res) => {
   try {
-    await db.raw("select 1");
-    console.log("Succesfully connected to database...");
-
+    connectDB();
     const songs = await db("songs");
 
     res.json(songs);
@@ -68,9 +57,7 @@ app.get("/api/music", async (req, res) => {
 
 app.get("/api/art", async (req, res) => {
   try {
-    await db.raw("select 1");
-    console.log("Succesfully connected to database...");
-
+    connectDB();
     const art = await db("art");
 
     res.json(art);

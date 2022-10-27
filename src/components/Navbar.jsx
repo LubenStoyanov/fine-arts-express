@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <div className="navbar max-w-7xl self-center">
-      <div className="h-10 navbar-start text-primary">
-        <Link to={`/`} className="btn btn-ghost w-20 normal-case text-xl ">
+    <div className="navbar max-w-7xl self-center h-20">
+      <div className="navbar-start text-primary">
+        <Link to={`/`} className="btn btn-ghost w-20 normal-case">
           <img src="/Logo2.png" />
         </Link>
       </div>

@@ -8,7 +8,7 @@ export default function Searchbar() {
         <div className="input-group">
           <input
             type="text"
-            placeholder="Search…"
+            placeholder="Search"
             className="input input-bordered"
             name="query"
           />

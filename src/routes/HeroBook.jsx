@@ -1,5 +1,5 @@
 import React from "react";
-import { useLoaderData, useParams } from "react-router-dom";
+import { useLoaderData } from "react-router-dom";
 import axiosData from "../utils/axiosData";
 
 export async function loader({ params }) {
