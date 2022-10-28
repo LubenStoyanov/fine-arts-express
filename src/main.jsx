@@ -26,12 +26,12 @@ const router = createBrowserRouter([
         loader: heroLoader,
       },
       {
-        path: "literature/",
+        path: "books/",
         element: <Literature />,
         loader: literatureLoader,
       },
       {
-        path: "music",
+        path: "songs",
         element: <Music />,
         loader: musicLoader,
       },
@@ -46,12 +46,12 @@ const router = createBrowserRouter([
         loader: worksLoader,
       },
       {
-        path: "literature/:title/:id",
+        path: "books/:title/:id",
         element: <HeroBook />,
         loader: bookLoader,
       },
       {
-        path: "music/:title/:id",
+        path: "songs/:title/:id",
         element: <HeroMusic />,
         loader: songLoader,
       },
