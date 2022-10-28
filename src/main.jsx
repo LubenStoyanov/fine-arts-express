@@ -9,8 +9,9 @@ import Works, { loader as worksLoader } from "./routes/Works";
 import Hero, { loader as heroLoader } from "./routes/Hero";
 import "./index.css";
 import HeroBook, { loader as bookLoader } from "./routes/HeroBook";
-import HeroMusic from "./routes/HeroMusic";
-import HeroArt from "./routes/HeroArt";
+import HeroMusic, { loader as songLoader } from "./routes/HeroMusic";
+import HeroArt, { loader as artPieceLoader } from "./routes/HeroArt";
+import Create, { action as createAction } from "./routes/Create";
 
 const router = createBrowserRouter([
   {
@@ -43,17 +44,24 @@ const router = createBrowserRouter([
         loader: worksLoader,
       },
       {
-        path: "book/:title/:id",
+        path: "literature/:title/:id",
         element: <HeroBook />,
         loader: bookLoader,
       },
       {
-        path: "heroMusic/:songId",
+        path: "music/:title/:id",
         element: <HeroMusic />,
+        loader: songLoader,
       },
       {
-        path: "heroArt/:artId",
+        path: "art/:title/:id",
         element: <HeroArt />,
+        loader: artPieceLoader,
+      },
+      {
+        path: "create",
+        element: <Create />,
+        action: createAction,
       },
     ],
   },

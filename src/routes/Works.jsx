@@ -17,18 +17,18 @@ export async function loader({ request }) {
 
 export default function Works() {
   const { works } = useLoaderData();
+  console.log(works);
 
   const mappedWorks = works.map((work) => (
     <div key={work.id}>
+      {console.log(work)}
       <label className="swap swap-flip">
         <input type="checkbox" />
         <div className="swap-on">
           <div className="flex-col items-center justify-center font-bold card card-compact w-60 sm:w-full sm:h-full bg-base-100 shadow-xl">
             <h2 className="text-center">{work.title}</h2>
             <span className="text-center">by</span>
-            <p className="text-center">
-              {work.author ? work.author : work.artist}
-            </p>
+            <p className="text-center">{work.artist}</p>
             <a
               target="blank"
               href={work.link}
@@ -43,9 +43,7 @@ export default function Works() {
             <img
               className=""
               src={work.artworks ? work.artworks : work.cover}
-              alt={`Book cover of ${work.title} by ${
-                work.artist ? work.artist : work.author
-              }`}
+              alt={`Book cover of ${work.title} by ${work.artist}`}
             />
           </figure>
         </div>

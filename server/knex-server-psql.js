@@ -8,6 +8,7 @@ const app = express();
 const port = process.env.PORT || 8080;
 
 app.use(cors());
+app.use(express.json());
 
 app.get("/api/all", async (req, res) => {
   try {
@@ -55,6 +56,20 @@ app.get("/api/music", async (req, res) => {
   }
 });
 
+app.get("/api/song/:id", async (req, res) => {
+  try {
+    connectDB();
+    const [song] = await db("songs").where({
+      id: req.params.id,
+    });
+
+    res.json(song);
+    console.log("Succesfully send book...");
+  } catch (error) {
+    console.log("Failed to get book...", error);
+  }
+});
+
 app.get("/api/art", async (req, res) => {
   try {
     connectDB();
@@ -66,4 +81,34 @@ app.get("/api/art", async (req, res) => {
   }
 });
 
+app.get("/api/art/:id", async (req, res) => {
+  try {
+    connectDB();
+    const [art] = await db("art").where({
+      id: req.params.id,
+    });
+
+    res.json(art);
+    console.log("Succesfully send book...");
+  } catch (error) {
+    console.log("Failed to get book...", error);
+  }
+});
+
+app.post("/api/create", async (req, res) => {
+  const { category, title, creator, release, description } = req.body;
+  try {
+    connectDB();
+    await db(`${category}`).insert({
+      id: title + creator,
+      title: title,
+      artist: creator,
+      release: release,
+      description: description,
+    });
+    res.sendStatus(201);
+  } catch (error) {
+    console.error(error);
+  }
+});
 app.listen(port, console.log(`Server is running on http://localhost:${port}`));
