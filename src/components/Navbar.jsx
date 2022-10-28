@@ -60,6 +60,12 @@ export default function Navbar() {
           <li>
             <NavLink to="create">Create</NavLink>
           </li>
+          <li>
+            <NavLink to="update">Update</NavLink>
+          </li>
+          <li>
+            <NavLink to="delete">Delete</NavLink>
+          </li>
         </ul>
       </div>
     </div>

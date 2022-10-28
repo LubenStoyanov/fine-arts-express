@@ -10,6 +10,8 @@ const port = process.env.PORT || 8080;
 app.use(cors());
 app.use(express.json());
 
+// GET
+
 app.get("/api/all", async (req, res) => {
   try {
     connectDB();
@@ -95,8 +97,11 @@ app.get("/api/art/:id", async (req, res) => {
   }
 });
 
+// CREATE
+
 app.post("/api/create", async (req, res) => {
   const { category, title, creator, release, description } = req.body;
+
   try {
     connectDB();
     await db(`${category}`).insert({
@@ -111,4 +116,41 @@ app.post("/api/create", async (req, res) => {
     console.error(error);
   }
 });
+
+// UPDATE
+
+app.put("/api/update", async (req, res) => {
+  const { category, title, creator, release, description } = req.body;
+
+  try {
+    connectDB();
+    await db(`${category}`)
+      .where({ artist: creator })
+      .orWhere({ title: title })
+      .update({
+        title: title,
+        artist: creator,
+        release: release,
+        description: description,
+      });
+    res.sendStatus(200);
+  } catch (error) {
+    console.error(error);
+  }
+});
+
+// DELETE
+
+app.delete("/api/delete/:title/:category", async (req, res) => {
+  const { title, category } = req.params;
+  console.log(title, category);
+
+  try {
+    await db(`${category}`).where({ title: title }).del();
+    res.sendStatus(200);
+  } catch (error) {
+    console.error(error);
+  }
+});
+
 app.listen(port, console.log(`Server is running on http://localhost:${port}`));

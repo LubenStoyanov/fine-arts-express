@@ -17,11 +17,9 @@ export async function loader({ request }) {
 
 export default function Works() {
   const { works } = useLoaderData();
-  console.log(works);
 
   const mappedWorks = works.map((work) => (
     <div key={work.id}>
-      {console.log(work)}
       <label className="swap swap-flip">
         <input type="checkbox" />
         <div className="swap-on">

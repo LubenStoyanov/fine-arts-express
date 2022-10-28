@@ -3,21 +3,22 @@ import { Form, redirect } from "react-router-dom";
 import axiosData from "../utils/axiosData";
 
 export async function action({ request }) {
-  const { createWork } = axiosData();
+  const { updateWork } = axiosData();
 
   const formData = await request.formData();
   const data = Object.fromEntries(formData);
 
-  await createWork(data);
+  await updateWork(data);
 
   return redirect(
     `/${data.category === "books" ? "literature" : data.category}`
   );
 }
-export default function Request() {
+
+export default function Update() {
   return (
-    <div className="flex flex-col space-y-2 my-10">
-      <Form method="post" className="flex flex-col items-center space-y-5">
+    <div>
+      <Form method="put" className="flex flex-col items-center space-y-5">
         <div className="flex  items-start w-full max-w-xs space-x-2 ">
           <input type="radio" name="category" value="books" className="radio" />
           <label htmlFor="literature" className="">
@@ -27,7 +28,7 @@ export default function Request() {
             type="radio"
             name="category"
             value="songs"
-            className="radio "
+            className="radio"
             required
           />
           <label htmlFor="music">Music</label>
@@ -48,13 +49,6 @@ export default function Request() {
           id=""
           placeholder="Creator"
         />
-        <input
-          type="text"
-          name="release"
-          className="input input-bordered w-full max-w-xs"
-          id=""
-          placeholder="Release"
-        />
         <textarea
           name="description"
           className="textarea textarea-bordered w-full max-w-xs"
@@ -64,7 +58,7 @@ export default function Request() {
           rows="10"
         ></textarea>
         <button type="submit" className="btn w-full max-w-xs ">
-          Create
+          Update
         </button>
       </Form>
     </div>

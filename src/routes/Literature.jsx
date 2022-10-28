@@ -24,17 +24,35 @@ export default function Literature() {
               </p>
             </a>
             <p className="m-6 text-secondary">
-              {book.author} {book.release}
+              {book.artist} {book.release}
             </p>
             <span className="m-6 mt-2 text-secondary"></span>
           </div>
         </div>
         <div className="card card-compact w-max h-max bg-base-100 shadow-xl swap-off">
           <figure className="h-full">
-            <img
-              src={book.cover}
-              alt={`Book cover of ${book.title} by ${book.author}`}
-            />
+            {book.cover ? (
+              <img
+                src={book.cover}
+                alt={`Book cover of ${book.title} by ${book.artist}`}
+              />
+            ) : (
+              // <img
+              //   src="../../public/placeholder-image.jpg"
+              //   alt="placeholder image"
+              //   width={300}
+              // />
+              <div
+                style={{
+                  width: 180,
+                  height: 270,
+                }}
+              >
+                <p className="mt-20 ml-10">
+                  {book.title} by {book.artist}
+                </p>
+              </div>
+            )}
           </figure>
         </div>
       </label>

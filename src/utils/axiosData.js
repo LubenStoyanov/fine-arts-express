@@ -49,6 +49,18 @@ export default function axiosData() {
       .then((res) => res)
       .catch((error) => console.error(error));
 
+  const updateWork = (data) =>
+    axios
+      .put("http://localhost:8080/api/update", data)
+      .then((res) => res)
+      .catch((error) => console.error(error));
+
+  const deleteWork = (data) =>
+    axios
+      .delete(`http://localhost:8080/api/delete/${data.title}/${data.category}`)
+      .then((res) => res)
+      .catch((error) => console.error(error));
+
   return {
     getData,
     getBooks,
@@ -58,5 +70,7 @@ export default function axiosData() {
     getArtPiece,
     getSong,
     createWork,
+    updateWork,
+    deleteWork,
   };
 }

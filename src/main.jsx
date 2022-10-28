@@ -12,6 +12,8 @@ import HeroBook, { loader as bookLoader } from "./routes/HeroBook";
 import HeroMusic, { loader as songLoader } from "./routes/HeroMusic";
 import HeroArt, { loader as artPieceLoader } from "./routes/HeroArt";
 import Create, { action as createAction } from "./routes/Create";
+import Update, { action as updateAction } from "./routes/Update";
+import Delete, { action as deleteAction } from "./routes/Delete";
 
 const router = createBrowserRouter([
   {
@@ -62,6 +64,16 @@ const router = createBrowserRouter([
         path: "create",
         element: <Create />,
         action: createAction,
+      },
+      {
+        path: "update",
+        element: <Update />,
+        action: updateAction,
+      },
+      {
+        path: "delete",
+        element: <Delete />,
+        action: deleteAction,
       },
     ],
   },
