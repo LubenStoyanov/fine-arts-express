@@ -1,13 +1,13 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <div data-theme="garden" className="navbar">
+    <div className="navbar max-w-7xl self-center h-20">
       <div className="navbar-start text-primary">
-        <Link to={`/`} className="btn btn-ghost w-20 normal-case text-xl ">
+        <NavLink to={`/`} className="btn btn-ghost w-20 normal-case">
           <img src="/Logo2.png" />
-        </Link>
+        </NavLink>
       </div>
       <div className="navbar-end">
         <div className="dropdown dropdown-end">
@@ -29,30 +29,42 @@ export default function Navbar() {
           </label>
           <ul
             tabIndex={0}
-            className="menu menu-compact dropdown-content shadow bg-base-100 text-primary rounded-box w-22"
+            className="menu menu-compact dropdown-content shadow bg-base-100 text-primary rounded-box w-22 text-lg font-semibold"
           >
             <li>
-              <Link to={`music`}>Music</Link>
+              <NavLink to="music">Music</NavLink>
             </li>
             <li>
-              <Link to={`art`}>Art</Link>
+              <NavLink to="art">Art</NavLink>
             </li>
             <li>
-              <Link to={`literature`}>Literature</Link>
+              <NavLink to="literature">Literature</NavLink>
+            </li>
+            <li>
+              <NavLink to="create">Create</NavLink>
             </li>
           </ul>
         </div>
       </div>
       <div className="navbar-end text-primary hidden md:flex">
-        <ul className="menu menu-horizontal p-0">
+        <ul className="menu menu-horizontal p-0 text-lg font-semibold">
           <li>
-            <Link to={`music`}>Music</Link>
+            <NavLink to="music">Music</NavLink>
           </li>
           <li>
-            <Link to={`art`}>Art</Link>
+            <NavLink to="art">Art</NavLink>
           </li>
           <li>
-            <Link to={`literature`}>Literature </Link>
+            <NavLink to="literature">Literature</NavLink>
+          </li>
+          <li>
+            <NavLink to="create">Create</NavLink>
+          </li>
+          <li>
+            <NavLink to="update">Update</NavLink>
+          </li>
+          <li>
+            <NavLink to="delete">Delete</NavLink>
           </li>
         </ul>
       </div>

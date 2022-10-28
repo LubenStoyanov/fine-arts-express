@@ -1,17 +1,15 @@
 import React from "react";
 import { useLoaderData } from "react-router-dom";
-import contentful from "../data/fetchData";
-import search from "../search";
+import Searchbar from "../components/Searchbar";
+import axiosData from "../utils/axiosData";
+import search from "../utils/search";
 
 export async function loader({ request }) {
-  let url = new URL(request.url);
-  let searchTerm = url.searchParams.get("query");
+  const url = new URL(request.url);
+  const searchTerm = url.searchParams.get("query");
 
-  const { getBooks, getArt, getMusic } = contentful();
-
-  const art = await getArt();
-  const music = await getMusic();
-  const books = await getBooks();
+  const { getData } = axiosData();
+  const { books, art, music } = await getData();
 
   const works = search(searchTerm, art, books, music);
   return { works };
@@ -21,19 +19,17 @@ export default function Works() {
   const { works } = useLoaderData();
 
   const mappedWorks = works.map((work) => (
-    <div key={work.sys.id}>
+    <div key={work.id}>
       <label className="swap swap-flip">
         <input type="checkbox" />
         <div className="swap-on">
           <div className="flex-col items-center justify-center font-bold card card-compact w-60 sm:w-full sm:h-full bg-base-100 shadow-xl">
-            <h2 className="text-center">{work.fields.title}</h2>
+            <h2 className="text-center">{work.title}</h2>
             <span className="text-center">by</span>
-            <p className="text-center">
-              {work.fields.author ? work.fields.author : work.fields.artist}
-            </p>
+            <p className="text-center">{work.artist}</p>
             <a
               target="blank"
-              href={work.fields.link}
+              href={work.link}
               className="btn btn-primary w-40 self-center "
             >
               More Info
@@ -44,14 +40,8 @@ export default function Works() {
           <figure>
             <img
               className=""
-              src={
-                work.fields.artworks
-                  ? work.fields.artworks[0].fields.file.url
-                  : work.fields.cover.fields.file.url
-              }
-              alt={`Book cover of ${work.fields.title} by ${
-                work.fields.artist ? work.fields.artist : work.fields.author
-              }`}
+              src={work.artworks ? work.artworks : work.cover}
+              alt={`Book cover of ${work.title} by ${work.artist}`}
             />
           </figure>
         </div>
@@ -64,10 +54,11 @@ export default function Works() {
       <div className="container prose h1 my-10">
         <h1 style={{ textAlign: "center" }}>Works</h1>
       </div>
-      <div className="flex flex-col sm:flex-row sm:flex-wrap space-y-10 space-x-5">
+      <div className="flex flex-col sm:flex-row sm:flex-wrap space-y-10 space-x-5 mb-10">
         <div></div>
         {mappedWorks}
       </div>
+      <Searchbar />
     </div>
   );
 }

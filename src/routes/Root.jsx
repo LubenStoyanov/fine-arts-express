@@ -1,11 +1,13 @@
 import { Outlet } from "react-router-dom";
-import Navbar from "./Navbar";
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
 
 export default function Root() {
   return (
-    <div className="h-screen">
+    <div className="flex flex-col sm:min-h-screen justify-between">
       <Navbar />
       <Outlet />
+      <Footer />
     </div>
   );
 }

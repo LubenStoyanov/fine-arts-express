@@ -1,15 +1,14 @@
 import { sample } from "lodash";
 import { useLoaderData } from "react-router-dom";
-import useContentful from "../data/fetchData";
 
 const RandomArt = ({ fart }) => {
   // console.log(fart);
   return (
-    <div className="basis-1/3 sm:w-max sm:h-max">
+    <div className="flex flex-col items-center sm:flex-row">
       <img
-        src={fart.fields.artworks[0].fields.file.url}
-        className="max-w-sm rounded-lg shadow-2xl"
-        style={{ width: "auto", height: 300, objectFit: "contain" }}
+        src={fart.artworks}
+        className="max-w-xs rounded-lg shadow-2xl"
+        style={{ objectFit: "contain" }}
       />
     </div>
   );

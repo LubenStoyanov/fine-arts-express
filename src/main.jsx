@@ -8,9 +8,12 @@ import Art, { loader as artLoader } from "./routes/Art";
 import Works, { loader as worksLoader } from "./routes/Works";
 import Hero, { loader as heroLoader } from "./routes/Hero";
 import "./index.css";
-import HeroBook from "./routes/HeroBook";
-import HeroMusic from "./routes/HeroMusic";
-import HeroArt from "./routes/HeroArt";
+import HeroBook, { loader as bookLoader } from "./routes/HeroBook";
+import HeroMusic, { loader as songLoader } from "./routes/HeroMusic";
+import HeroArt, { loader as artPieceLoader } from "./routes/HeroArt";
+import Create, { action as createAction } from "./routes/Create";
+import Update, { action as updateAction } from "./routes/Update";
+import Delete, { action as deleteAction } from "./routes/Delete";
 
 const router = createBrowserRouter([
   {
@@ -18,12 +21,12 @@ const router = createBrowserRouter([
     element: <Root />,
     children: [
       {
-        path: "/",
+        index: true,
         element: <Hero />,
         loader: heroLoader,
       },
       {
-        path: "literature",
+        path: "literature/",
         element: <Literature />,
         loader: literatureLoader,
       },
@@ -43,16 +46,34 @@ const router = createBrowserRouter([
         loader: worksLoader,
       },
       {
-        path: "heroBook/:bookId",
+        path: "literature/:title/:id",
         element: <HeroBook />,
+        loader: bookLoader,
       },
       {
-        path: "heroMusic/:songId",
+        path: "music/:title/:id",
         element: <HeroMusic />,
+        loader: songLoader,
       },
       {
-        path: "heroArt/:artId",
+        path: "art/:title/:id",
         element: <HeroArt />,
+        loader: artPieceLoader,
+      },
+      {
+        path: "create",
+        element: <Create />,
+        action: createAction,
+      },
+      {
+        path: "update",
+        element: <Update />,
+        action: updateAction,
+      },
+      {
+        path: "delete",
+        element: <Delete />,
+        action: deleteAction,
       },
     ],
   },
