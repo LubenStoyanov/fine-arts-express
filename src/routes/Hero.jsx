@@ -45,9 +45,9 @@ export default function Hero() {
           <div></div>
           <div>
             <Link
-              to={`literature/${book.title
-                .toLowerCase()
-                .replace(/\s+/g, "-")}/${book.id}`}
+              to={`books/${book.title.toLowerCase().replace(/\s+/g, "-")}/${
+                book.id
+              }`}
             >
               <RandomBook book={book} />
             </Link>
@@ -63,7 +63,7 @@ export default function Hero() {
           </div>
           <div>
             <Link
-              to={`music/${song.title.toLowerCase().replace(/\s+/g, "-")}/${
+              to={`songs/${song.title.toLowerCase().replace(/\s+/g, "-")}/${
                 song.id
               }`}
             >

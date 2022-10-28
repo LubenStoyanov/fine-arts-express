@@ -32,13 +32,13 @@ export default function Navbar() {
             className="menu menu-compact dropdown-content shadow bg-base-100 text-primary rounded-box w-22 text-lg font-semibold"
           >
             <li>
-              <NavLink to="music">Music</NavLink>
+              <NavLink to="songs">Music</NavLink>
             </li>
             <li>
               <NavLink to="art">Art</NavLink>
             </li>
             <li>
-              <NavLink to="literature">Literature</NavLink>
+              <NavLink to="books">Literature</NavLink>
             </li>
             <li>
               <NavLink to="create">Create</NavLink>
@@ -49,13 +49,13 @@ export default function Navbar() {
       <div className="navbar-end text-primary hidden md:flex">
         <ul className="menu menu-horizontal p-0 text-lg font-semibold">
           <li>
-            <NavLink to="music">Music</NavLink>
+            <NavLink to="songs">Music</NavLink>
           </li>
           <li>
             <NavLink to="art">Art</NavLink>
           </li>
           <li>
-            <NavLink to="literature">Literature</NavLink>
+            <NavLink to="books">Literature</NavLink>
           </li>
           <li>
             <NavLink to="create">Create</NavLink>
